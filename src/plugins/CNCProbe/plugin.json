@@ -1,0 +1,9 @@
+{
+  "dwcWebpackChunk": "CNCProbe",
+  "id": "CNCProbe",
+  "name": "CNC Probe",
+  "author": "Raymond Stone",
+  "version": "auto-major",
+  "license": "LGPL-3.0-or-later",
+  "dwcVersion": "auto-major"
+}

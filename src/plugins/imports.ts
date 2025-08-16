@@ -6,6 +6,16 @@ import DwcPlugin from "./DwcPlugin";
 
 export default initCollection(DwcPlugin, [
 	{
+        id: "CNCProbe",
+        name: "CNC Probe",
+        author: "Raymond Stone",
+        version: "auto-major",
+        loadDwcResources: () => import(
+            /* webpackChunkName: "CNCProbe" */
+            "./CNCProbe/index"
+        )
+    },
+	{
         id: "GCodeViewer",
         name: "G-Code Viewer",
         author: "Juan Rosario",
